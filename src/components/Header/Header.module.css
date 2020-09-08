@@ -1,0 +1,14 @@
+
+.Header{
+    padding: 20px 0;
+    background-color: rgb(42, 157, 165);
+    color: white;
+    text-align: center;
+}
+
+.Header h1{
+    display: inline;
+    margin-left: 15px;
+    font-weight: 300;
+    
+}

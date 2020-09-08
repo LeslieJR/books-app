@@ -1,0 +1,49 @@
+
+.SearchArea {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SearchArea form {
+    position: relative;
+    width: 290px;
+    max-width: 100%;
+}
+
+.SearchArea form:focus,
+input:focus, button:focus {
+    outline: none;
+}
+
+.SearchArea form input {
+    border: 0;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 100%;
+    background-color: rgba(101, 102, 102, 0.4);
+    
+}
+
+.SearchArea form button {
+    position: absolute;
+    top: 2px;
+    left: 180px;
+    background-color: rgb(42, 157, 165);
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    padding: 13px 30px;
+
+}
+
+.SearchArea form select{
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
